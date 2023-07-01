@@ -1,0 +1,10 @@
+.custom_card{
+    height: 6rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px #3C3C3C;
+}

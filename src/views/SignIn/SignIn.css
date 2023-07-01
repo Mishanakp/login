@@ -1,0 +1,26 @@
+.chackBox {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    /* color: rgba(218, 218, 218, 0.801); */
+}
+
+@media only screen and (max-width:992px) {
+    .imgbox {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+    .imgbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
